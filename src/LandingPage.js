@@ -12,7 +12,7 @@ function LandingPage() {
         <p>תארים מתקדמים מישראל וארהב עם פרסומים בכתבי עת מובילים</p>
         <p>גישה מותאמת אישית לכל לקוח</p>
         <p>שליטה באנגלית והתמחות בכלים מתקדמים כמו בינה מלאכותית</p>
-        <a href="#">קישור לפרופיל מלא</a>
+        <a href="https://dry-hamlet-69726-31baf6235fe7.herokuapp.com">קישור לפרופיל מלא</a>
       </div>
     ) },
     { id: "services", label: "שירותים עיקריים", content: (
@@ -68,17 +68,17 @@ function LandingPage() {
         <p>עקוב אחרי הפרופילים שלי</p>
         <ul>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/nimrod-shavit-6707a7345/" target="_blank" rel="noopener noreferrer">
               פרופיל לינקדאין
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/dAllesZermalmer" target="_blank" rel="noopener noreferrer">
               מעורבות אזרחית בטוויטר
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://open-source-humanities-bf6815244991.herokuapp.com" target="_blank" rel="noopener noreferrer">
               גלו את המשאבים והפרויקטים שלנו לתמיכה בחינוך מדעי הרוח קוד פתוח
             </a>
           </li>
@@ -109,6 +109,7 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
 
 
 
