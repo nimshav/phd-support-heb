@@ -5,81 +5,81 @@ function LandingPage() {
   const [activeTab, setActiveTab] = React.useState("about-me");
 
   const tabs = [
-    { id: "about-me", label: "About Me", content: (
+    { id: "about-me", label: "אודותיי", content: (
       <div>
-        <h2>About Me</h2>
-        <p>I am Nimrod Shavit, a researcher in the field of communication and the humanities with extensive experience in academic mentoring and editing.</p>
-        <p>Advanced degrees from Israel and the U.S., with publications in leading journals.</p>
-        <p>Personalized approach tailored to each client.</p>
-        <p>Proficiency in English and expertise in advanced tools like AI.</p>
-        <a href="https://dry-hamlet-69726-31baf6235fe7.herokuapp.com/#teaching">Link to full profile</a>
+        <h2>אודותיי</h2>
+        <p>אני נמרוד שביט, חוקר בתחומי התקשורת והמדעי הרוח עם ניסיון רב בהנחיה ועריכה אקדמית.</p>
+        <p>תארים מתקדמים מישראל וארה"ב, עם פרסומים בכתבי עת מובילים.</p>
+        <p>גישה מותאמת אישית לכל לקוח.</p>
+        <p>שליטה באנגלית והתמחות בכלים מתקדמים כמו בינה מלאכותית.</p>
+        <a href="https://dry-hamlet-69726-31baf6235fe7.herokuapp.com/#teaching">קישור לפרופיל מלא</a>
       </div>
     ) },
-    { id: "services", label: "Key Services", content: (
+    { id: "services", label: "שירותים עיקריים", content: (
       <div>
-        <h2>Key Services</h2>
+        <h2>שירותים עיקריים</h2>
         <ul>
-          <li>Research Guidance: Support for MA and PhD students, as well as institutional researchers stuck in academic writing.</li>
-          <li>Personalized Meetings: Tailored one-on-one sessions focused on specific project needs.</li>
-          <li>Problem-Solving: Assistance in writing research proposals, designing methodologies, and analyzing results.</li>
-          <li>Outline and Timeline Creation: Custom schedules adapted to client availability.</li>
-          <li>Time Management Strategies: Techniques to optimize research and writing workflows.</li>
-          <li>AI Tools Training: Guidance on using advanced tools like ChatGPT and writing custom scripts.</li>
-          <li>Editing: Structural, stylistic, and rational editing, as well as proofreading.</li>
-          <li>Adherence to Scientific Standards: Formatting and writing in accordance with standards like APA or MLA.</li>
+          <li>הנחיית מחקר: תמיכה לסטודנטים לתואר שני ודוקטורט וכן לחוקרים מוסדיים המתקשים בכתיבה אקדמית.</li>
+          <li>פגישות מותאמות אישית: מפגשים אחד על אחד המותאמים לצורכי הפרויקט הספציפיים.</li>
+          <li>פתרון בעיות: עזרה בכתיבת הצעות מחקר, תכנון מתודולוגיה וניתוח תוצאות.</li>
+          <li>בניית תוכנית ולוחות זמנים: לוחות זמנים מותאמים לזמינות הלקוח.</li>
+          <li>אסטרטגיות לניהול זמן: טכניקות לשיפור מחקר וכתיבה.</li>
+          <li>הכשרה בכלים טכנולוגיים: הדרכה לשימוש בכלים מתקדמים כמו ChatGPT וכתיבת סקריפטים מותאמים אישית.</li>
+          <li>עריכה: עריכה מבנית, סגנונית ורציונלית, כולל הגהה.</li>
+          <li>עמידה בסטנדרטים מדעיים: כתיבה ועריכה בהתאם לסטנדרטים כמו APA או MLA.</li>
         </ul>
       </div>
     ) },
-    { id: "delivery", label: "Service Delivery Options", content: (
+    { id: "delivery", label: "אפשרויות מתן שירות", content: (
       <div>
-        <h2>Service Delivery Options</h2>
+        <h2>אפשרויות מתן שירות</h2>
         <ul>
-          <li><strong>Intensive:</strong> Frequent weekly or bi-weekly meetings for high-priority or demanding projects.</li>
-          <li><strong>Regular:</strong> Meetings at key points in the research process, such as chapter submissions or the end of data collection.</li>
-          <li><strong>Minimal:</strong> Monthly or on-demand meetings to address specific challenges or provide direction.</li>
+          <li><strong>אינטנסיבי:</strong> פגישות שבועיות או דו-שבועיות לפרויקטים בעדיפות גבוהה או תובעניים.</li>
+          <li><strong>רגיל:</strong> פגישות בנקודות מפתח בתהליך המחקר, כמו הגשת פרקים או סיום איסוף הנתונים.</li>
+          <li><strong>מינימלי:</strong> פגישות חודשיות או לפי הצורך כדי לטפל באתגרים ספציפיים או לתת כיוון.</li>
         </ul>
       </div>
     ) },
-    { id: "testimonials", label: "Client Testimonials", content: (
+    { id: "testimonials", label: "עדויות לקוחות", content: (
       <div>
-        <h2>Client Testimonials</h2>
+        <h2>עדויות לקוחות</h2>
         <ul>
-          <li><strong>Asaf:</strong> Creative solutions for lesson planning and academic projects (PhD, Hebrew).</li>
-          <li><strong>Alina:</strong> Writing articles and publishing internationally (PhD, English).</li>
-          <li><strong>Liana:</strong> Editing and writing tailored for an international audience (PhD, English).</li>
-          <li><strong>Anna:</strong> Submission of a quality thesis proposal (MA, Hebrew).</li>
+          <li><strong>אסף:</strong> פתרונות יצירתיים לתכנון שיעורים ופרויקטים אקדמיים (דוקטורט, עברית).</li>
+          <li><strong>אלינה:</strong> כתיבת מאמרים ופרסום בינלאומי (דוקטורט, אנגלית).</li>
+          <li><strong>ליאנה:</strong> עריכה וכתיבה מותאמת לקהל בינלאומי (דוקטורט, אנגלית).</li>
+          <li><strong>אנה:</strong> הגשת הצעת תזה איכותית (תואר שני, עברית).</li>
         </ul>
       </div>
     ) },
-    { id: "resources", label: "Resources", content: (
+    { id: "resources", label: "משאבים", content: (
       <div>
-        <h2>Resources</h2>
+        <h2>משאבים</h2>
         <ul>
-          <li>Guide to Academic Structure: A detailed guide on how to structure academic work effectively.</li>
-          <li>Sample Editing Work: Examples showcasing stylistic, structural, and writing adjustments.</li>
-          <li>AI Tips and Tools: Tips and tools for efficient research and writing using AI.</li>
+          <li>מדריך למבנה אקדמי: מדריך מפורט לארגון עבודה אקדמית בצורה יעילה.</li>
+          <li>דוגמאות עריכה: דוגמאות המראות שינויים סגנוניים, מבניים, וכתיבתיים.</li>
+          <li>טיפים וכלים טכנולוגיים: טיפים וכלים למחקר וכתיבה יעילה באמצעות AI.</li>
         </ul>
       </div>
     ) },
-    { id: "contact", label: "Contact", content: (
+    { id: "contact", label: "צור קשר", content: (
       <div>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:nshavit@icloud.com">nshavit@icloud.com</a></p>
-        <p>Follow my profiles:</p>
+        <h2>צור קשר</h2>
+        <p>אימייל: <a href="mailto:nshavit@icloud.com">nshavit@icloud.com</a></p>
+        <p>עקוב אחרי הפרופילים שלי:</p>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/nimrod-shavit-6707a7345/" target="_blank" rel="noopener noreferrer">
-              LinkedIn Profile
+              פרופיל LinkedIn
             </a>
           </li>
           <li>
             <a href="https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin" target="_blank" rel="noopener noreferrer">
-              Twitter Civic Engagement
+              מעורבות אזרחית בטוויטר
             </a>
           </li>
           <li>
             <a href="https://open-source-humanities-bf6815244991.herokuapp.com" target="_blank" rel="noopener noreferrer">
-              Explore our resources and projects supporting accessible humanities education
+              גלו את המשאבים והפרויקטים שלנו לתמיכה בחינוך מדעי הרוח נגיש
             </a>
           </li>
         </ul>
@@ -90,8 +90,8 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <header>
-        <h1>Doctoral Support</h1>
-        <p>Your partner in academic success.</p>
+        <h1>תמיכה לדוקטורט</h1>
+        <p>השותף שלך להצלחה אקדמית.</p>
       </header>
       <div className="tabs">
         {tabs.map(tab => (
@@ -108,5 +108,4 @@ function LandingPage() {
 }
 
 export default LandingPage;
-
 
