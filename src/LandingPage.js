@@ -92,6 +92,7 @@ function LandingPage() {
       <header>
         <h1>תמיכה לדוקטורט</h1>
         <p>השותף שלך להצלחה אקדמית</p>
+        <p><a href="https://phd-support-0b0aa07d11e1.herokuapp.com" target="_blank" rel="noopener noreferrer">גרסה באנגלית</a></p>
       </header>
       <div className="tabs">
         {tabs.map(tab => (
@@ -108,5 +109,6 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
 
 
