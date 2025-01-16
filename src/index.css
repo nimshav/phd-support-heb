@@ -1,40 +1,82 @@
-/* Ensure everything aligns properly for Hebrew */
+/* General Styles */
 body {
-  direction: rtl;
-  text-align: right;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
 }
 
-/* Fix the header layout */
-.landing-header {
-  text-align: center; /* Center header text */
+/* Header */
+header {
+  text-align: center;
   padding: 40px 20px;
-  background-color: #003366;
-  color: white;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.cta-button {
+  display: inline-block;
+  background-color: #007bff; /* Classic blue */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Forms (Future Contact Form) */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #007bff;
   border-radius: 5px;
 }
 
-/* Ensure section content is aligned properly */
-.services-section,
-.testimonials-section,
-.cta-section {
-  text-align: right;
-  width: 90%;
-  margin: auto;
+form button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-/* Fix the button alignment */
-.cta-button {
-  display: block;
-  width: 50%;
-  margin: 20px auto;
-  text-align: center;
-}
-
-/* Fix content width */
-.landing-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
+form button:hover {
+  background-color: #0056b3;
 }
 
 
