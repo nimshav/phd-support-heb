@@ -1,84 +1,40 @@
-/* Right-to-Left (RTL) Support */
+/* Ensure everything aligns properly for Hebrew */
 body {
   direction: rtl;
   text-align: right;
 }
 
-/* Landing Page Styles */
-.landing-container {
-  text-align: right;
-  padding: 40px 20px;
-  color: #ffffff;
-}
-
+/* Fix the header layout */
 .landing-header {
+  text-align: center; /* Center header text */
+  padding: 40px 20px;
   background-color: #003366;
-  padding: 50px 20px;
+  color: white;
   border-radius: 5px;
+}
+
+/* Ensure section content is aligned properly */
+.services-section,
+.testimonials-section,
+.cta-section {
   text-align: right;
+  width: 90%;
+  margin: auto;
 }
 
-.services-section, .testimonials-section, .cta-section {
-  margin-top: 40px;
-  text-align: right;
-}
-
-.service-list {
-  display: flex;
-  justify-content: flex-end; /* Align services to the right */
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.service-card {
-  width: 280px;
-  padding: 15px;
-  border: 1px solid #1E90FF;
-  border-radius: 5px;
-  background-color: #003366;
-  text-align: right;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.service-card:hover {
-  transform: scale(1.05);
-  background-color: #004080;
-}
-
-.testimonial {
-  background-color: #002855;
-  padding: 15px;
-  border-radius: 5px;
-  margin: 15px auto;
-  max-width: 600px;
-  text-align: right;
-}
-
-.testimonial span {
-  font-weight: bold;
-  display: block;
-  margin-top: 10px;
-  text-align: right;
-}
-
-/* Buttons */
+/* Fix the button alignment */
 .cta-button {
-  display: inline-block;
-  background-color: #1E90FF; /* Bright Royal Blue */
-  color: #ffffff;
-  border: none;
-  padding: 12px 24px;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-  margin-top: 15px;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
 }
 
-.cta-button:hover {
-  background-color: #0056b3;
-  transform: scale(1.05);
+/* Fix content width */
+.landing-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
 }
+
 
